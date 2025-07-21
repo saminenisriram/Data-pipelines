@@ -21,7 +21,7 @@ create or replace storage integration s3_int
   type = external_stage
   storage_provider = s3
   enabled = true
-  storage_aws_role_arn = 'arn:aws:iam::700812213739:role/AWS2Snowflake'
+  storage_aws_role_arn = '*******'
   storage_allowed_locations = ('s3://de-project-datewith/snowflake/');
 
   
